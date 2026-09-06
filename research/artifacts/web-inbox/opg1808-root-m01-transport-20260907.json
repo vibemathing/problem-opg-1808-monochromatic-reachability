@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762635,
+    "node_id": "R_kgDOUP0Siw",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-1808-monochromatic-reachability",
+  "problem_contract_sha256": "7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
+  "harness_snapshot_sha256": "fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6",
+  "base_revision": "5dadef3eab80ef20ef61c97e93629f9d63c4f4f7",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg1808-a01",
+  "route_id": "route:directed-gallai-decomposition-v1",
+  "graph_id": "graph:opg1808-initial-v1",
+  "obligation_id": "obligation:opg1808-root",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "ChatGPT",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg1808-root-m01-materialization-20260906",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "Transport the existing M01 argument and two programs without repeating or upgrading their unreplayed execution claims.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg1808-root-m01-materialization-20260906",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-root-m01-materialization-20260906.md",
+      "sha256": "b5b2718c1969c718e657bab0956061273f3462c3b841ef46f5d08fc0884ee369"
+    },
+    {
+      "candidate_id": "candidate:opg1808-root-m01-code-20260907",
+      "kind": "computation",
+      "locator": "research/artifacts/candidates/root-path-materialization-m01-20260906.cpp",
+      "sha256": "80a85fe495b1e553423eeec98cf9afb0c86709cd8d68f17fde6a5118c417c4f7"
+    },
+    {
+      "candidate_id": "candidate:opg1808-root-m01-driver-20260907",
+      "kind": "computation",
+      "locator": "research/artifacts/candidates/root-word-driver-m01-20260906.py",
+      "sha256": "e7918d6b089a425685e363ee3967dbb18bb2cae15f2ca1dc5540a921a135e44c"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg1808-m01-preserved-path-argument",
+      "text": "The legacy path-materialisation argument is preserved as a candidate pending semantic review; no execution or finite coverage claim is newly verified.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "Nonempty finite simple tournaments; arcs use colours from a three-element palette; monochromatic path colour may depend on the target.",
+    "Transport preservation is not mathematical verification. The historical partition dependency is not used."
+  ],
+  "risks": [
+    "No mathematical computation, Lean or SMT replay is performed in this reconciliation.",
+    "Original execution reports and logs referenced in the prose have not been recovered; historical counts remain pending/unverified."
+  ],
+  "open_obligations": [
+    "obligation:opg1808-root",
+    "obligation:opg1808-directed-gallai-partition"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "5dadef3eab80ef20ef61c97e93629f9d63c4f4f7",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/records/obligation-graphs.jsonl",
+      "revision": "5dadef3eab80ef20ef61c97e93629f9d63c4f4f7",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/records/failed-routes.jsonl",
+      "revision": "5dadef3eab80ef20ef61c97e93629f9d63c4f4f7",
+      "relation": "prior_art"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/artifacts/source-notes/opg1808-transport-t01-m01-20260907.md",
+      "revision": "sha256:0606e692d63b5a8f7b36480bec90626d82d1009e0ff7ab671ae2e03d42da7a02",
+      "relation": "prior_art"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T23:55:33.952683+00:00"
+}
