@@ -1,0 +1,31 @@
+{
+"schema_version":"1.1.0","channel":"chatgpt-web-github-issue-pr-writer","repository":"vibemathing/problem-opg-1808-monochromatic-reachability","repository_identity":{"binding_state":"verified","database_id":1358762635,"node_id":"R_kgDOUP0Siw","default_branch":"main"},
+"problem_id":"problem:opg-1808-monochromatic-reachability","problem_contract_sha256":"7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f","harness_snapshot_sha256":"fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6","base_revision":"af56f062b0837bc6da8f16cc93264324dd34c69d","importer_policy_sha256":"a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+"attempt_id":"attempt:web-20260906-opg1808-a01","route_id":"route:directed-gallai-decomposition-v1","graph_id":"graph:opg1808-initial-v1","obligation_id":"obligation:opg1808-root",
+"generator":{"principal":"chatgpt-web-github","model_label":"ChatGPT","model_fingerprint_status":"unverified"},
+"transport":{"branch":"web/attempt-opg1808-root-r02-n9-20260906","issue_number":3,"issue_url":"https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3","pull_request_number":9,"pull_request_url":"https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/9"},
+"objective":"Audit mandatory-colour reachability propagation and complete the minimum-counterexample search domain through nine vertices without a directed Gallai partition assumption.",
+"candidate_artifacts":[
+{"candidate_id":"candidate:opg1808-root-r02-propagation-20260906","kind":"proof","locator":"research/artifacts/candidates/opg1808-root-r02-propagation-20260906.md","sha256":"53a70c5ae9684cffda358620fd82d8f969c1fcecfd59ea6a35963993517d6b32"},
+{"candidate_id":"candidate:opg1808-root-r02-search-20260906","kind":"computation","locator":"research/artifacts/candidates/root-reach-propagation-r02.cpp","sha256":"9a9c7c705e971eb23a60242e5270383451bd5b8b1d1898b57e800750094d464e"},
+{"candidate_id":"candidate:opg1808-root-r02-driver-20260906","kind":"computation","locator":"research/artifacts/candidates/root-word-driver-r02.py","sha256":"928325af21c7e20a082aba50bca95a129fff89aebab8b1f7eb8394b3ebaaca77"},
+{"candidate_id":"candidate:opg1808-root-r02-report-20260906","kind":"computation","locator":"research/artifacts/candidates/opg1808-root-r02-report-20260906.json","sha256":"8a2bca26ebc4b24aaa21af93ee3a4c41db86ccbdff6cb82fd3c92e0e5f1f04d5"}
+],
+"atomic_claims":[
+{"claim_id":"claim:opg1808-root-r02-exact-gaps","text":"Minimum nonempty root counterexamples have exactly one unreachable predecessor per vertex on a spanning directed cycle.","status":"candidate"},
+{"claim_id":"claim:opg1808-root-r02-transition","text":"At distinct consecutive cycle colours, the required reverse reachability uses the third colour.","status":"candidate"},
+{"claim_id":"claim:opg1808-root-r02-propagation","text":"Lower mandatory reachability and upper physical-domain closure propagation preserve all completions of the minimum-counterexample domain.","status":"candidate"},
+{"claim_id":"claim:opg1808-root-r02-bound-nine","text":"All canonical cycle words at orders 3 through 9 were exhausted without a witness by the generator program; the coverage proof makes this a finite root exclusion candidate.","status":"candidate"}
+],
+"assumptions":["Nonempty finite simple tournaments and three available arc colours.","Directed monochromatic paths may have different colours for different targets.","Order minimality and finite-digraph-basic/finite-combinatorics only.","Historical route ID is provenance only; partition existence is not used."],
+"risks":["No trusted mathematical receipt; generator-side proof and computations only.","Positive reachability constraints apply only after the minimum-counterexample reduction.","Mandatory relation edges are not physical triangle edges.","Obsolete partition dependency requires trusted coordinator handling before admission.","No conclusion at order ten or above.","Run the reproduction driver without Python optimization; require explicit successful statuses and exit codes."],
+"open_obligations":["obligation:opg1808-root","obligation:opg1808-directed-gallai-partition"],"failed_route_proposal":null,
+"source_refs":[
+{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"problem-library/records/canonical-problems.jsonl","revision":"af56f062b0837bc6da8f16cc93264324dd34c69d","relation":"exact"},
+{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/records/obligation-graphs.jsonl","revision":"af56f062b0837bc6da8f16cc93264324dd34c69d","relation":"exact"},
+{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/records/failed-routes.jsonl","revision":"af56f062b0837bc6da8f16cc93264324dd34c69d","relation":"prior_art"},
+{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/artifacts/candidates/opg1808-root-r01-coverage-20260906.md","revision":"af56f062b0837bc6da8f16cc93264324dd34c69d","relation":"prior_art"},
+{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/artifacts/candidates/root-cycle-word-search-20260906.cpp","revision":"af56f062b0837bc6da8f16cc93264324dd34c69d","relation":"prior_art"}
+],
+"requested_verification":["kernel_check","axiom_escape_audit","statement_faithfulness"],"verdict":"candidate_only","created_at":"2026-09-06T12:39:13+00:00"
+}
