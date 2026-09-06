@@ -13,7 +13,7 @@
   "graph_id": "graph:opg1808-initial-v1",
   "obligation_id": "obligation:opg1808-directed-gallai-partition",
   "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
-  "transport": {"branch": "web/attempt-opg1808-a01-c03-family-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "transport": {"branch": "web/attempt-opg1808-a01-c03-family-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": 6, "pull_request_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/6"},
   "objective": "Audit the finite-exception repair by giving a constructive partition obstruction at every order n >= 4.",
   "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c03-family-20260906", "kind": "counterexample", "locator": "research/artifacts/candidates/opg1808-a01-c03-family-20260906.md", "sha256": "278ab154b7c5572b428ebe116c98bfb74957fe698fa9ece1a5924465a40bb55d"}],
   "atomic_claims": [
