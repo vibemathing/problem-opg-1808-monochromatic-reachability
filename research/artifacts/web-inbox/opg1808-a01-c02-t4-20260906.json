@@ -13,7 +13,7 @@
   "graph_id": "graph:opg1808-initial-v1",
   "obligation_id": "obligation:opg1808-directed-gallai-partition",
   "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
-  "transport": {"branch": "web/attempt-opg1808-a01-c02-t4-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "transport": {"branch": "web/attempt-opg1808-a01-c02-t4-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": 5, "pull_request_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/5"},
   "objective": "Test the explicit stronger repair requiring strong connectivity and no underlying rainbow triangle; provide a T4 counterexample candidate with a complete proper-block certificate.",
   "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c02-t4-20260906", "kind": "counterexample", "locator": "research/artifacts/candidates/opg1808-a01-c02-t4-20260906.md", "sha256": "64e08277181d510649479b8ccd0b9ed2308c10b17a47248a51a86fe647f39f25"}],
   "atomic_claims": [
