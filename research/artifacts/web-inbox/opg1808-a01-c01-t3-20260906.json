@@ -13,7 +13,7 @@
   "graph_id": "graph:opg1808-initial-v1",
   "obligation_id": "obligation:opg1808-directed-gallai-partition",
   "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
-  "transport": {"branch": "web/attempt-opg1808-a01-c01-t3-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "transport": {"branch": "web/attempt-opg1808-a01-c01-t3-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": 4, "pull_request_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/4"},
   "objective": "Produce a minimal nondegenerate counterexample candidate to the admitted directed Gallai partition, with every partition checked and root scope separated.",
   "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c01-t3-20260906", "kind": "counterexample", "locator": "research/artifacts/candidates/opg1808-a01-c01-t3-20260906.md", "sha256": "467d8cd8442f5b80c9fda5853881bd21b7bf99715ee122e2273d45c132da0be1"}],
   "atomic_claims": [
@@ -23,7 +23,7 @@
     {"claim_id": "claim:opg1808-c01-root-scope", "text": "Vertex a is a monosource, so this is not a counterexample to the frozen root.", "status": "candidate"}
   ],
   "assumptions": ["Finite simple tournament; colours are assigned from {R,B,G}.", "Partition reading: n >= 2, 2 <= k <= n, nonempty parts; singletons allowed.", "Only finite-digraph-basic and finite-combinatorics are used."],
-  "risks": ["Natural-language finite certificate has no matching trusted verification receipt.", "Minimality excludes empty/singleton base conventions; the n=3 obstruction itself does not depend on them.", "No mathematical enumeration or kernel execution was performed; local serialization and hashing only.", "Verifier registry fixture policies are not assumed executable for arbitrary tournament claims."],
+  "risks": ["Natural-language finite certificate has no matching trusted verification receipt.", "Minimality excludes empty/singleton base conventions; the n=3 obstruction itself does not depend on them.", "No programmatic tournament enumeration or kernel execution was performed; local serialization and hashing only.", "Verifier registry fixture policies are not assumed executable for arbitrary tournament claims."],
   "open_obligations": ["obligation:opg1808-directed-gallai-partition", "obligation:opg1808-root"],
   "failed_route_proposal": {"route_fingerprint": "9dfa3c478960ff047d0208384ed2a966b3b0d4475487ecdcddea5d8f312e923b", "failure_class": "counterexample", "blocker": "The transitive rainbow T3 defeats the universal directed Gallai partition. Fingerprint is SHA-256 of the UTF-8 route ID. This proposal does not change the root.", "evidence_locators": ["research/artifacts/candidates/opg1808-a01-c01-t3-20260906.md"], "next_obligation": "obligation:opg1808-directed-gallai-partition"},
   "source_refs": [
