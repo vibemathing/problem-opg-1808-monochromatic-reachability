@@ -59,8 +59,8 @@
     "branch": "web/attempt-web-20260906-opg1808-a01-transport-smoke",
     "issue_number": 1,
     "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/1",
-    "pull_request_number": null,
-    "pull_request_url": null
+    "pull_request_number": 2,
+    "pull_request_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/2"
   },
   "verdict": "candidate_only"
 }
