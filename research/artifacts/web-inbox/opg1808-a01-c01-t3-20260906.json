@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+  "repository_identity": {"binding_state": "verified", "database_id": 1358762635, "node_id": "R_kgDOUP0Siw", "default_branch": "main"},
+  "problem_id": "problem:opg-1808-monochromatic-reachability",
+  "problem_contract_sha256": "7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
+  "harness_snapshot_sha256": "fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6",
+  "base_revision": "bb001374124bc89a98c87cbffbb86aab32a01609",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg1808-a01",
+  "route_id": "route:directed-gallai-decomposition-v1",
+  "graph_id": "graph:opg1808-initial-v1",
+  "obligation_id": "obligation:opg1808-directed-gallai-partition",
+  "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
+  "transport": {"branch": "web/attempt-opg1808-a01-c01-t3-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "objective": "Produce a minimal nondegenerate counterexample candidate to the admitted directed Gallai partition, with every partition checked and root scope separated.",
+  "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c01-t3-20260906", "kind": "counterexample", "locator": "research/artifacts/candidates/opg1808-a01-c01-t3-20260906.md", "sha256": "467d8cd8442f5b80c9fda5853881bd21b7bf99715ee122e2273d45c132da0be1"}],
+  "atomic_claims": [
+    {"claim_id": "claim:opg1808-c01-hypothesis", "text": "The T3 arc list has no directed cycle and uses all three colours.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c01-partitions", "text": "All four partitions into at least two parts fail a required condition.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c01-minimality", "text": "Order three is minimal among n >= 2 with 2 <= k <= n parts; order two always permits its singleton partition.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c01-root-scope", "text": "Vertex a is a monosource, so this is not a counterexample to the frozen root.", "status": "candidate"}
+  ],
+  "assumptions": ["Finite simple tournament; colours are assigned from {R,B,G}.", "Partition reading: n >= 2, 2 <= k <= n, nonempty parts; singletons allowed.", "Only finite-digraph-basic and finite-combinatorics are used."],
+  "risks": ["Natural-language finite certificate has no matching trusted verification receipt.", "Minimality excludes empty/singleton base conventions; the n=3 obstruction itself does not depend on them.", "No mathematical enumeration or kernel execution was performed; local serialization and hashing only.", "Verifier registry fixture policies are not assumed executable for arbitrary tournament claims."],
+  "open_obligations": ["obligation:opg1808-directed-gallai-partition", "obligation:opg1808-root"],
+  "failed_route_proposal": {"route_fingerprint": "9dfa3c478960ff047d0208384ed2a966b3b0d4475487ecdcddea5d8f312e923b", "failure_class": "counterexample", "blocker": "The transitive rainbow T3 defeats the universal directed Gallai partition. Fingerprint is SHA-256 of the UTF-8 route ID. This proposal does not change the root.", "evidence_locators": ["research/artifacts/candidates/opg1808-a01-c01-t3-20260906.md"], "next_obligation": "obligation:opg1808-directed-gallai-partition"},
+  "source_refs": [
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "problem-library/records/canonical-problems.jsonl", "revision": "bb001374124bc89a98c87cbffbb86aab32a01609", "relation": "exact"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/records/obligation-graphs.jsonl", "revision": "bb001374124bc89a98c87cbffbb86aab32a01609", "relation": "exact"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/records/failed-routes.jsonl", "revision": "bb001374124bc89a98c87cbffbb86aab32a01609", "relation": "prior_art"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/artifacts/source-notes/opg1808-a01-c01-sources-20260906.md", "revision": "sha256:b66e7393fd51b6ed7c1145e6d031d75649c15472ed0b56e6bb799e3df3de07bf", "relation": "analogy"}
+  ],
+  "requested_verification": ["kernel_check", "axiom_escape_audit", "statement_faithfulness"],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:19:11.944544Z"
+}
