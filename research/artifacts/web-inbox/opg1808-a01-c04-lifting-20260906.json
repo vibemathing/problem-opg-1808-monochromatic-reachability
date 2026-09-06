@@ -13,7 +13,7 @@
   "graph_id": "graph:opg1808-initial-v1",
   "obligation_id": "obligation:opg1808-directed-gallai-partition",
   "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
-  "transport": {"branch": "web/attempt-opg1808-a01-c04-lifting-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "transport": {"branch": "web/attempt-opg1808-a01-c04-lifting-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": 7, "pull_request_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/7"},
   "objective": "Salvage the valid inductive lifting implication and derive necessary conditions on a smallest nonempty root counterexample, without assuming the false partition-existence assertion.",
   "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c04-lifting-20260906", "kind": "proof", "locator": "research/artifacts/candidates/opg1808-a01-c04-lifting-20260906.md", "sha256": "e33a6a765cd89dbb1dfb157d4835ce86c06a7385ee91b49f045a1142699278b9"}],
   "atomic_claims": [
