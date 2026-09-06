@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+  "repository_identity": {"binding_state": "verified", "database_id": 1358762635, "node_id": "R_kgDOUP0Siw", "default_branch": "main"},
+  "problem_id": "problem:opg-1808-monochromatic-reachability",
+  "problem_contract_sha256": "7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
+  "harness_snapshot_sha256": "fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6",
+  "base_revision": "736b33cd6c54d543e18a6357242dd98c0d17cfb2",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg1808-a01",
+  "route_id": "route:directed-gallai-decomposition-v1",
+  "graph_id": "graph:opg1808-initial-v1",
+  "obligation_id": "obligation:opg1808-directed-gallai-partition",
+  "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
+  "transport": {"branch": "web/attempt-opg1808-a01-c03-family-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "objective": "Audit the finite-exception repair by giving a constructive partition obstruction at every order n >= 4.",
+  "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c03-family-20260906", "kind": "counterexample", "locator": "research/artifacts/candidates/opg1808-a01-c03-family-20260906.md", "sha256": "278ab154b7c5572b428ebe116c98bfb74957fe698fa9ece1a5924465a40bb55d"}],
+  "atomic_claims": [
+    {"claim_id": "claim:opg1808-c03-family", "text": "For every integer m >= 1 the construction is a strongly connected three-coloured tournament with no underlying rainbow triangle.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c03-forcing", "text": "Every proper nonsingleton colour-direction module lies inside X.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c03-all-orders", "text": "Each order n >= 4 has a witness with no permitted two-colour quotient partition; finite-order exceptions do not repair the assertion.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c03-root-scope", "text": "Vertex 3 is an R-monosource throughout the family, so no root counterexample is supplied.", "status": "candidate"}
+  ],
+  "assumptions": ["Finite simple tournaments; nonempty parts and singleton parts allowed.", "Only finite-digraph-basic and finite-combinatorics are used."],
+  "risks": ["Natural-language candidate, without a matching trusted mathematical receipt.", "No programmatic tournament enumeration or proof-assistant run was performed.", "The root statement and all admitted records remain unchanged."],
+  "open_obligations": ["obligation:opg1808-directed-gallai-partition", "obligation:opg1808-root"],
+  "failed_route_proposal": {"route_fingerprint": "9dfa3c478960ff047d0208384ed2a966b3b0d4475487ecdcddea5d8f312e923b", "failure_class": "counterexample", "blocker": "Replacing vertex 0 of C02 with an all-red block gives partition obstructions at every n >= 4, even under strong connectivity and the underlying Gallai condition.", "evidence_locators": ["research/artifacts/candidates/opg1808-a01-c03-family-20260906.md"], "next_obligation": "obligation:opg1808-directed-gallai-partition"},
+  "source_refs": [
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "problem-library/records/canonical-problems.jsonl", "revision": "736b33cd6c54d543e18a6357242dd98c0d17cfb2", "relation": "exact"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/records/obligation-graphs.jsonl", "revision": "736b33cd6c54d543e18a6357242dd98c0d17cfb2", "relation": "exact"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/records/failed-routes.jsonl", "revision": "736b33cd6c54d543e18a6357242dd98c0d17cfb2", "relation": "prior_art"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/artifacts/candidates/opg1808-a01-c02-t4-20260906.md", "revision": "736b33cd6c54d543e18a6357242dd98c0d17cfb2", "relation": "prior_art"}
+  ],
+  "requested_verification": ["kernel_check", "axiom_escape_audit", "statement_faithfulness"],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:35:40.386212Z"
+}
