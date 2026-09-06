@@ -1,43 +1,18 @@
 {
-  "schema_version":"1.1.0",
-  "channel":"chatgpt-web-github-issue-pr-writer",
-  "repository":"vibemathing/problem-opg-1808-monochromatic-reachability",
-  "repository_identity":{"binding_state":"verified","database_id":1358762635,"node_id":"R_kgDOUP0Siw","default_branch":"main"},
-  "problem_id":"problem:opg-1808-monochromatic-reachability",
-  "problem_contract_sha256":"7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
-  "harness_snapshot_sha256":"fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6",
-  "base_revision":"b8e462251af9679a3a628ff4bbb9ed4536109088",
-  "importer_policy_sha256":"a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
-  "attempt_id":"attempt:web-20260906-opg1808-a01",
-  "route_id":"route:directed-gallai-decomposition-v1",
-  "graph_id":"graph:opg1808-initial-v1",
-  "obligation_id":"obligation:opg1808-root",
-  "generator":{"principal":"chatgpt-web-github","model_label":"ChatGPT","model_fingerprint_status":"unverified"},
-  "transport":{"branch":"web/attempt-opg1808-root-r01-n8-20260906","issue_number":3,"issue_url":"https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3","pull_request_number":null,"pull_request_url":null},
-  "objective":"Direct-root bounded exact search through order eight, with a minimal-counterexample coverage proof; no partition-existence assumption.",
-  "candidate_artifacts":[
-    {"candidate_id":"candidate:opg1808-root-r01-main-code-20260906","kind":"computation","locator":"research/artifacts/candidates/root-cycle-search-20260906.cpp","sha256":"363b349c3bffbd1b0e81aadce3a7f88da33e0ce0a2bdd1877f90922c5680344a"},
-    {"candidate_id":"candidate:opg1808-root-r01-word-code-20260906","kind":"computation","locator":"research/artifacts/candidates/root-cycle-word-search-20260906.cpp","sha256":"387ce137b9fee05a311e8a35dee3699a07c14658bf6b4f7db9944bcf1d49a244"},
-    {"candidate_id":"candidate:opg1808-root-r01-reference-code-20260906","kind":"computation","locator":"research/artifacts/candidates/root-cycle-reference-20260906.cpp","sha256":"c5e08538a22761ab981608666fae8448e4be94d69589e0146e7392059213ab9b"},
-    {"candidate_id":"candidate:opg1808-root-r01-report-20260906","kind":"computation","locator":"research/artifacts/candidates/opg1808-root-r01-search-report-20260906.json","sha256":"67eb5ccc0fc677ac05fe8798ed11e8e67d94f7e93fddc1535f271dc007f23128"},
-    {"candidate_id":"candidate:opg1808-root-r01-coverage-20260906","kind":"proof","locator":"research/artifacts/candidates/opg1808-root-r01-coverage-20260906.md","sha256":"a4413b6f3afb82ba73279ffd740f927e87f2a1ab319494745449171ff4886d3c"}
-  ],
-  "atomic_claims":[
-    {"claim_id":"claim:opg1808-root-r01-coverage","text":"Every minimum nonempty root counterexample has a spanning cycle of forbidden monochromatic predecessor pairs and is represented in the search.","status":"candidate"},
-    {"claim_id":"claim:opg1808-root-r01-n8","text":"Completed generator-side searches cover orders 3 through 8 and yield no witness; together with direct orders 1 and 2 this gives a finite proof/computation candidate only.","status":"candidate"},
-    {"claim_id":"claim:opg1808-root-r01-controls","text":"A cyclic rainbow T3 and a four-colour six-vertex object serve as positive controls outside the root assumptions.","status":"candidate"}
-  ],
-  "assumptions":["Finite nonempty simple tournaments, palette {0,1,2}, target-dependent monochromatic path colours.","Only the bad-pair cycle reduction is used for search coverage; no degree/module/Gallai preprocessing is assumed in R01."],
-  "risks":["No trusted verifier receipt, proof-assistant run, EvidenceLink or Result.","All local checks are in the generator trust domain; reference replay completed only through order six.","The frozen graph still has an obsolete partition dependency; trusted revision is needed before root admission.","Local auxiliary execution is candidate generation under the explicit bounded-search request, not repository/Harness execution.","Declared contract/Harness digests were compared to current bindings, not recomputed in this turn."],
-  "open_obligations":["obligation:opg1808-root","obligation:opg1808-directed-gallai-partition"],
-  "failed_route_proposal":null,
-  "source_refs":[
-    {"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"problem-library/records/canonical-problems.jsonl","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"exact"},
-    {"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/records/obligation-graphs.jsonl","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"exact"},
-    {"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/records/failed-routes.jsonl","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"prior_art"},
-    {"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/artifacts/candidates/opg1808-a01-c04-lifting-20260906.md","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"prior_art"}
-  ],
-  "requested_verification":["kernel_check","axiom_escape_audit","statement_faithfulness"],
-  "verdict":"candidate_only",
-  "created_at":"2026-09-06T12:03:09.424875+00:00"
+"schema_version":"1.1.0","channel":"chatgpt-web-github-issue-pr-writer","repository":"vibemathing/problem-opg-1808-monochromatic-reachability","repository_identity":{"binding_state":"verified","database_id":1358762635,"node_id":"R_kgDOUP0Siw","default_branch":"main"},
+"problem_id":"problem:opg-1808-monochromatic-reachability","problem_contract_sha256":"7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f","harness_snapshot_sha256":"fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6","base_revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","importer_policy_sha256":"a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1","attempt_id":"attempt:web-20260906-opg1808-a01","route_id":"route:directed-gallai-decomposition-v1","graph_id":"graph:opg1808-initial-v1","obligation_id":"obligation:opg1808-root",
+"generator":{"principal":"chatgpt-web-github","model_label":"ChatGPT","model_fingerprint_status":"unverified"},"transport":{"branch":"web/attempt-opg1808-root-r01-n8-20260906","issue_number":3,"issue_url":"https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3","pull_request_number":8,"pull_request_url":"https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/pull/8"},
+"objective":"Direct-root bounded exact search through order eight, with a minimal-counterexample coverage proof; no partition-existence assumption.",
+"candidate_artifacts":[
+{"candidate_id":"candidate:opg1808-root-r01-main-code-20260906","kind":"computation","locator":"research/artifacts/candidates/root-cycle-search-20260906.cpp","sha256":"363b349c3bffbd1b0e81aadce3a7f88da33e0ce0a2bdd1877f90922c5680344a"},
+{"candidate_id":"candidate:opg1808-root-r01-word-code-20260906","kind":"computation","locator":"research/artifacts/candidates/root-cycle-word-search-20260906.cpp","sha256":"387ce137b9fee05a311e8a35dee3699a07c14658bf6b4f7db9944bcf1d49a244"},
+{"candidate_id":"candidate:opg1808-root-r01-reference-code-20260906","kind":"computation","locator":"research/artifacts/candidates/root-cycle-reference-20260906.cpp","sha256":"c5e08538a22761ab981608666fae8448e4be94d69589e0146e7392059213ab9b"},
+{"candidate_id":"candidate:opg1808-root-r01-report-20260906","kind":"computation","locator":"research/artifacts/candidates/opg1808-root-r01-search-report-20260906.json","sha256":"67eb5ccc0fc677ac05fe8798ed11e8e67d94f7e93fddc1535f271dc007f23128"},
+{"candidate_id":"candidate:opg1808-root-r01-coverage-20260906","kind":"proof","locator":"research/artifacts/candidates/opg1808-root-r01-coverage-20260906.md","sha256":"a4413b6f3afb82ba73279ffd740f927e87f2a1ab319494745449171ff4886d3c"}],
+"atomic_claims":[{"claim_id":"claim:opg1808-root-r01-coverage","text":"Every minimum nonempty root counterexample has a spanning cycle of forbidden monochromatic predecessor pairs and is represented in the search.","status":"candidate"},{"claim_id":"claim:opg1808-root-r01-n8","text":"Completed generator-side searches cover orders 3 through 8 and yield no witness; together with direct orders 1 and 2 this gives a finite proof/computation candidate only.","status":"candidate"},{"claim_id":"claim:opg1808-root-r01-controls","text":"A cyclic rainbow T3 and a four-colour six-vertex object serve as positive controls outside the root assumptions.","status":"candidate"}],
+"assumptions":["Finite nonempty simple tournaments, palette {0,1,2}, target-dependent monochromatic path colours.","Only the bad-pair cycle reduction is used for search coverage; no degree/module/Gallai preprocessing is assumed in R01."],
+"risks":["No trusted verifier receipt, proof-assistant run, EvidenceLink or Result.","All local checks are in the generator trust domain; reference replay completed only through order six.","The frozen graph still has an obsolete partition dependency; trusted revision is needed before root admission.","Local auxiliary execution is candidate generation under the explicit bounded-search request, not repository/Harness execution.","Declared contract/Harness digests were compared to current bindings, not recomputed in this turn."],
+"open_obligations":["obligation:opg1808-root","obligation:opg1808-directed-gallai-partition"],"failed_route_proposal":null,
+"source_refs":[{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"problem-library/records/canonical-problems.jsonl","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"exact"},{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/records/obligation-graphs.jsonl","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"exact"},{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/records/failed-routes.jsonl","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"prior_art"},{"repository":"vibemathing/problem-opg-1808-monochromatic-reachability","path":"research/artifacts/candidates/opg1808-a01-c04-lifting-20260906.md","revision":"b8e462251af9679a3a628ff4bbb9ed4536109088","relation":"prior_art"}],
+"requested_verification":["kernel_check","axiom_escape_audit","statement_faithfulness"],"verdict":"candidate_only","created_at":"2026-09-06T12:03:09.424875+00:00"
 }
