@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+  "repository_identity": {"binding_state": "verified", "database_id": 1358762635, "node_id": "R_kgDOUP0Siw", "default_branch": "main"},
+  "problem_id": "problem:opg-1808-monochromatic-reachability",
+  "problem_contract_sha256": "7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
+  "harness_snapshot_sha256": "fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6",
+  "base_revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg1808-a01",
+  "route_id": "route:directed-gallai-decomposition-v1",
+  "graph_id": "graph:opg1808-initial-v1",
+  "obligation_id": "obligation:opg1808-directed-gallai-partition",
+  "generator": {"principal": "chatgpt-web-github", "model_label": "ChatGPT", "model_fingerprint_status": "unverified"},
+  "transport": {"branch": "web/attempt-opg1808-a01-c04-lifting-20260906", "issue_number": 3, "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3", "pull_request_number": null, "pull_request_url": null},
+  "objective": "Salvage the valid inductive lifting implication and derive necessary conditions on a smallest nonempty root counterexample, without assuming the false partition-existence assertion.",
+  "candidate_artifacts": [{"candidate_id": "candidate:opg1808-a01-c04-lifting-20260906", "kind": "proof", "locator": "research/artifacts/candidates/opg1808-a01-c04-lifting-20260906.md", "sha256": "e33a6a765cd89dbb1dfb157d4835ce86c06a7385ee91b49f045a1142699278b9"}],
+  "atomic_claims": [
+    {"claim_id": "claim:opg1808-c04-lifting", "text": "A monosource of a genuine uniform quotient lifts from an internal monosource of its source part; no two-colour quotient premise is needed.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c04-inheritance", "text": "Induced parts and genuine uniform quotients inherit absence of rainbow directed triangles.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c04-prime-reduction", "text": "A smallest nonempty root counterexample, if one exists, has no proper nonsingleton colour-direction module.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c04-strong-reduction", "text": "A smallest nonempty root counterexample is strongly connected.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c04-small-orders", "text": "Every nonempty tournament of order at most four with no rainbow directed triangle has a monosource.", "status": "candidate"},
+    {"claim_id": "claim:opg1808-c04-combined", "text": "A smallest nonempty root counterexample must be strongly connected, colour-direction-module-free, and have order at least five.", "status": "candidate"}
+  ],
+  "assumptions": ["Finite simple tournaments; nonempty parts and singleton parts allowed.", "Only finite-digraph-basic and finite-combinatorics are used.", "Auxiliary statements are explicitly restricted to nonempty tournaments; the contract is not edited.", "Minimal-counterexample conclusions are conditional on existence within the three-colour class."],
+  "risks": ["Natural-language candidate, without a matching trusted mathematical receipt.", "No programmatic tournament enumeration or proof-assistant run was performed.", "The root statement and all admitted records remain unchanged.", "This is an auxiliary repair-audit proof candidate, not a proof of universal partition existence or of the root.", "No novelty or complete prior-art coverage is claimed."],
+  "open_obligations": ["obligation:opg1808-directed-gallai-partition", "obligation:opg1808-root"],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "problem-library/records/canonical-problems.jsonl", "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5", "relation": "exact"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/records/obligation-graphs.jsonl", "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5", "relation": "exact"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/records/failed-routes.jsonl", "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5", "relation": "prior_art"},
+    {"repository": "vibemathing/problem-opg-1808-monochromatic-reachability", "path": "research/artifacts/candidates/opg1808-a01-c03-family-20260906.md", "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5", "relation": "prior_art"}
+  ],
+  "requested_verification": ["kernel_check", "axiom_escape_audit", "statement_faithfulness"],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:44:47.040734Z"
+}
