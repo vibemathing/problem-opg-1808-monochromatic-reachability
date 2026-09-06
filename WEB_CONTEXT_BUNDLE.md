@@ -74,7 +74,27 @@ This file is generated from repository truth and bounded for the web channel. It
       "web_status": "active"
     }
   ],
-  "attempts": [],
+  "attempts": [
+    {
+      "artifacts": [],
+      "attempt_id": "attempt:web-20260906-opg1808-a01",
+      "claims": [],
+      "completed_at": null,
+      "generator": "chatgpt-web-github",
+      "inputs": [
+        "problem-library/records/canonical-problems.jsonl",
+        "research/records/failed-routes.jsonl"
+      ],
+      "lifecycle": "running",
+      "method": "proof",
+      "objective": "证明或反驳一个可用于归纳的 directed Gallai 分解：每个没有 rainbow directed triangle 的 3-arc-coloured tournament 是否都有非平凡顶点分块，使每对块之间的所有弧既同色又同向，并使缩约 tournament 的块间颜色至多为两种。",
+      "obligation_graph_id": "graph:opg1808-initial-v1",
+      "problem_contract_sha256": "7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
+      "problem_id": "problem:opg-1808-monochromatic-reachability",
+      "route_id": "route:directed-gallai-decomposition-v1",
+      "started_at": "2026-09-06T05:03:30Z"
+    }
+  ],
   "failed_routes": [],
   "knowledge_operators": [
     {
@@ -203,7 +223,40 @@ This file is generated from repository truth and bounded for the web channel. It
       "source_id": "sagemath"
     }
   ],
-  "obligation_graphs": [],
+  "obligation_graphs": [
+    {
+      "attempt_id": "attempt:web-20260906-opg1808-a01",
+      "graph_id": "graph:opg1808-initial-v1",
+      "obligations": [
+        {
+          "dependencies": [
+            "obligation:opg1808-directed-gallai-partition"
+          ],
+          "kind": "root_claim",
+          "obligation_id": "obligation:opg1808-root",
+          "statement": {
+            "formal_declaration": null,
+            "language": "en",
+            "text": "In every finite tournament whose arcs are colored with three colors, must there be either a rainbow directed 3-cycle or a vertex v from which every other vertex is reachable by a monochromatic directed path?"
+          },
+          "statement_sha256": "d6062584eb4185a7754c54ab1a7cbe9e7da26a6dc4359267c70739c91ca4bf2a"
+        },
+        {
+          "dependencies": [],
+          "kind": "lemma",
+          "obligation_id": "obligation:opg1808-directed-gallai-partition",
+          "statement": {
+            "formal_declaration": null,
+            "language": "zh",
+            "text": "证明或反驳一个可用于归纳的 directed Gallai 分解：每个没有 rainbow directed triangle 的 3-arc-coloured tournament 是否都有非平凡顶点分块，使每对块之间的所有弧既同色又同向，并使缩约 tournament 的块间颜色至多为两种。"
+          },
+          "statement_sha256": "89a2cc7ce45c8af28247a44d5305e5c4403b87539dcffec1c7fa6d01839b5e14"
+        }
+      ],
+      "root_obligation_id": "obligation:opg1808-root",
+      "route_id": "route:directed-gallai-decomposition-v1"
+    }
+  ],
   "problem_contract": {
     "acceptance": {
       "policy": "solution-admission-v1"
