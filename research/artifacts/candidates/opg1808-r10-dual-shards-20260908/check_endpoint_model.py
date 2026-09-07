@@ -39,7 +39,7 @@ def audit(d):
    total|=seen
   missing.append(sorted(set(range(n))-total))
  return {'verdict':'candidate_only','all_axioms_A_to_F':True,'no_rainbow_directed_triangle':True,'missing_targets':missing,
-         'physical_monosources':[u for u in range(n) if not missing[u]],'k':k,'root_counterexample':False}
+         'physical_monosources':[u for u in range(n) if not missing[u]],'k':k,'root_counterexample':all(bool(x) for x in missing)}
 if __name__=='__main__':
  resource.setrlimit(resource.RLIMIT_AS,(805306368,)*2);resource.setrlimit(resource.RLIMIT_CPU,(8,9));resource.setrlimit(resource.RLIMIT_FSIZE,(1048576,)*2)
  p=Path(sys.argv[1] if len(sys.argv)>1 else 'endpoint-model.json');raw=p.read_bytes();r=audit(json.loads(raw));r['input_sha256']=hashlib.sha256(raw).hexdigest();print(json.dumps(r,sort_keys=True,separators=(',',':')))
