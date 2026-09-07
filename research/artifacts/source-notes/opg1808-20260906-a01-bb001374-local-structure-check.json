@@ -1,0 +1,26 @@
+{
+  "verdict": "candidate_only",
+  "check_type": "artifact_preparation_only",
+  "created_at": "2026-09-06T07:51:19.824451+00:00",
+  "packet": "research/artifacts/web-inbox/opg1808-20260906-a01-bb001374-small-order-followup.packet.json",
+  "packet_sha256": "450138abfbf5ba5b4bfa96303d30c751d361777291995789e07053ad39f9fb25",
+  "schema_source": "Semantic transcription of research/schema/web-attempt-packet.schema.json, freshly read in full at 6294f75cd72274a4445576d5719fe347ed2f74f5.",
+  "validator": "jsonschema 4.26.0, Draft 2020-12 with format checking",
+  "python_version": "3.13.5",
+  "packet_schema_errors": [],
+  "candidate_digests_match": true,
+  "all_bundle_paths_within_candidate_allowlist": true,
+  "all_files_within_declared_size_budgets": true,
+  "checker_source_syntax_compiles": true,
+  "mathematical_checker_executed": false,
+  "repository_make_check_executed": false,
+  "remote_checks_for_this_packet": "not_run",
+  "limitations": [
+    "This is a local artifact-preparation check, not a mathematical verifier receipt.",
+    "Fresh main and real transport bindings must be checked when a write interface is available.",
+    "No assertion of a complete locally recomputed Harness snapshot is made."
+  ],
+  "schema_git_blob": "920bddf2ec1ef1d655cea76d3dbd84232f6e328a",
+  "candidate_artifact_count": 10,
+  "resolution_certificate_executed": false
+}

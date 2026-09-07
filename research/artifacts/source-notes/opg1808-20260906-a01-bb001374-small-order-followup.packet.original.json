@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762635,
+    "node_id": "R_kgDOUP0Siw",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-1808-monochromatic-reachability",
+  "problem_contract_sha256": "7ad1410069206a73b3cfd2149fc75d1509efc664f180b0ac96ae1f0f36473e8f",
+  "harness_snapshot_sha256": "fb55ba9df7d9f2d6961c750b0ba35305a3abaa3977764c555df2010136288fc6",
+  "base_revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg1808-a01",
+  "route_id": "route:directed-gallai-decomposition-v1",
+  "graph_id": "graph:opg1808-initial-v1",
+  "obligation_id": "obligation:opg1808-directed-gallai-partition",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "GPT-6 Astra Pro",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg1808-a01-small-order-20260906-bb001374",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-1808-monochromatic-reachability/issues/3",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "Offline follow-up to the admitted decomposition route: audit conditional lifting and two-colour quotient induction, prove candidate nonempty small-order bounds through five vertices, supply a finite seven-step resolution slice, and reduce the six/seven-vertex search. Alternative obstruction fixtures are retained for reproducibility. No root closure or remote submission is asserted.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c02-strong4",
+      "kind": "counterexample",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c02-strong4.md",
+      "sha256": "69d92a904215bd71f0675bed0a29feddfc4adef988785a0cb0eabe1037f8ab2f"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c03-blowup-family",
+      "kind": "counterexample",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c03-blowup-family.md",
+      "sha256": "21f3431be5c912b8ec0c67c715d50d344120bd0a96b4de8bd809c49f362cc796"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c04-module-lifting",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c04-module-lifting.md",
+      "sha256": "8c4f3e35ea37932ef7087351e5e9d77b555ebd84d9e390590c2b07dbed1a5af9"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c05-root-up-to4",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c05-root-up-to4.md",
+      "sha256": "8b3366587eacab04f0507da5edef61caf4e2aea52d518b98b615d8523b496f13"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c06-root-up-to5",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c06-root-up-to5.md",
+      "sha256": "b00ce35835623abc4584a15ff350284b71d11018da6c2d4f782dd4f53f7a7183"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c07-six-seven-search-reduction",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c07-six-seven-search-reduction.md",
+      "sha256": "caaf936c9dd58c2253a9a45e636a5f9d0601c57f6b28a61dc1cff15edd8a65ac"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-fixed-witness-data",
+      "kind": "counterexample",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-witnesses.json",
+      "sha256": "696b0580d2ad56f5cec560e21b6b9ba69794addd7776eb5669061a6491b96419"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-fixed-witness-check-plan",
+      "kind": "computation",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-check-witnesses.py",
+      "sha256": "42b0b192c815a0127e550dfcb07aa4908c89730c3044c0f3677ea266468a713a"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c08-two-colour-quotient",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c08-two-colour-quotient.md",
+      "sha256": "605717ce481cc21a4fac5be68efba5399743aea1be69da31d809fe753bb7b9de"
+    },
+    {
+      "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c09-five-vertex-resolution",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c09-five-vertex-resolution.json",
+      "sha256": "1364998017c122450b65e7626c67e7a5516f97c98699886d0ffc972fc4e5dee0"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-strong4",
+      "text": "The displayed alternate T4 is strong, has no underlying rainbow triangle, and has no admissible partition; this supports a fixed local fixture rather than a novelty claim.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-all-orders",
+      "text": "The displayed family has a partition obstruction at every order n >= 4, but every member has a monochromatic-reachability source. Equivalent all-orders scope is already present in remote C03.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-lifting",
+      "text": "For a partition uniform in direction and colour, a quotient source together with an internal source in its block lifts to a source of the full tournament; the quotient need not be two-coloured.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-four",
+      "text": "For any palette, every nonempty tournament of order at most four without a rainbow directed triangle has a monochromatic-reachability source.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-five",
+      "text": "For the three-colour palette, every nonempty tournament of order at most five without a rainbow directed triangle has a monochromatic-reachability source; the exceptional-cycle and two chord-direction cases are explicitly checked.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-next-space",
+      "text": "For an order-six minimal counterexample, exactly three vertices have outdegree two and three outdegree three. After fixing its exceptional cycle there are at most 512 direction templates; order seven has at most 16384.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-encoding",
+      "text": "The proposed Floyd equivalences force actual per-colour reachability rather than permitting arbitrary added reachability. The proposed solver/checker has not been run.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-two-colour-quotient",
+      "text": "Every nonempty two-coloured tournament has a monochromatic-reachability source; combining the explicit candidate proof with lifting proves the result for the recursively defined direction-and-colour-uniform hierarchy class, without asserting that the original forbidden-triangle class has such a hierarchy.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg1808-20260906-a01-bb001374-five-resolution",
+      "text": "The seven explicit forbidden-path clauses in the forward-chord five-vertex case have a hand-authored seven-step resolution derivation of the empty clause. The path-to-clause semantics and C06 reductions remain separate verification obligations.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "Finite simple tournaments; the frozen root palette has at most three colours; monochromatic path colours may depend on the target.",
+    "The partition tests use n >= 2 and 2 <= number of nonempty blocks <= n, allowing singleton blocks.",
+    "Small-order root statements explicitly use nonempty tournaments. Empty-object conventions require statement-faithfulness review.",
+    "C05 explicitly allows arbitrary palettes only for n <= 4; C06 uses at most three colours.",
+    "Only finite-digraph-basic and finite-combinatorics are used for the deductions."
+  ],
+  "risks": [
+    "LOCAL_STAGED_NOT_SUBMITTED: the transport.branch value is a planned branch name, not an observed Git ref. Issue #3 is real and open; no new branch, commit or PR was created by this connection.",
+    "The current exposed GitHub functions supply reads but no issue/comment/branch/commit/PR/merge writes. No authenticated CLI fallback was available. This is not a repository permission denial or a pre-admission failure.",
+    "Local C01 is a reproduction aid, not a new packet candidate. Remote C01, C02 and C03 were observed and must not be duplicated or attributed to this connection.",
+    "Repository main may advance during local preparation. Refresh main, open Issues and existing packets before transport; revise base_revision and all affected digests in the next staging transaction.",
+    "No mathematical program, SAT solver, Lean kernel, make check, or trusted verifier was executed for this local batch. Authored checker syntax was checked only.",
+    "The three successful remote checks read for PR #5 apply to its own frozen head, not to these local files.",
+    "Contract and Harness digest fields were matched against fresh declarations, not a full local Harness recomputation.",
+    "C06 and C07 may contain errors despite generator attack review. No matching trusted verification receipt or EvidenceLink exists.",
+    "ToolPlan exact solver/runtime identity and operational admission are unresolved; the plan is not executable authorization."
+  ],
+  "open_obligations": [
+    "obligation:opg1808-directed-gallai-partition",
+    "obligation:opg1808-root"
+  ],
+  "failed_route_proposal": {
+    "route_fingerprint": "9dfa3c478960ff047d0208384ed2a966b3b0d4475487ecdcddea5d8f312e923b",
+    "failure_class": "counterexample",
+    "blocker": "The universal partition-existence direction has explicit T3 and strong underlying-Gallai T4 obstruction candidates, already represented in remote C01/C02. The new batch does not retry that proof direction; it audits lifting and smaller-counterexample constraints while keeping the root open.",
+    "evidence_locators": [
+      "research/artifacts/candidates/opg1808-a01-c01-t3-20260906.md",
+      "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c02-strong4.md",
+      "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c03-blowup-family.md"
+    ],
+    "next_obligation": "obligation:opg1808-directed-gallai-partition"
+  },
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/records/attempts.jsonl",
+      "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/records/obligation-graphs.jsonl",
+      "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/records/failed-routes.jsonl",
+      "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+      "relation": "prior_art"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/artifacts/candidates/opg1808-a01-c01-t3-20260906.md",
+      "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+      "relation": "prior_art"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/artifacts/candidates/opg1808-a01-c03-family-20260906.md",
+      "revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+      "relation": "prior_art"
+    },
+    {
+      "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-source-faithfulness.md",
+      "revision": "sha256:d778184deff47dacdd70aaa638db297729ceb4865f1457b5bf127200adbc46f4",
+      "relation": "analogy"
+    },
+    {
+      "repository": "arxiv.org",
+      "path": "https://arxiv.org/html/0904.1967v2",
+      "revision": "0904.1967v2",
+      "relation": "prior_art"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:44:01.742671+00:00"
+}

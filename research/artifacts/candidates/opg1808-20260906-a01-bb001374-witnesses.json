@@ -1,0 +1,84 @@
+{
+  "verdict": "candidate_only",
+  "encoding": {
+    "vertices": "distinct labels",
+    "arcs": [
+      "tail",
+      "head",
+      "color"
+    ]
+  },
+  "instances": [
+    {
+      "name": "transitive3",
+      "vertices": [
+        "a",
+        "b",
+        "c"
+      ],
+      "arcs": [
+        [
+          "a",
+          "b",
+          1
+        ],
+        [
+          "b",
+          "c",
+          2
+        ],
+        [
+          "a",
+          "c",
+          3
+        ]
+      ],
+      "claimed_root": "a",
+      "candidate_locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c01-transitive3.md"
+    },
+    {
+      "name": "strong4",
+      "vertices": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "arcs": [
+        [
+          "a",
+          "b",
+          1
+        ],
+        [
+          "b",
+          "c",
+          1
+        ],
+        [
+          "c",
+          "a",
+          3
+        ],
+        [
+          "a",
+          "d",
+          2
+        ],
+        [
+          "d",
+          "b",
+          1
+        ],
+        [
+          "d",
+          "c",
+          2
+        ]
+      ],
+      "claimed_root": "a",
+      "candidate_locator": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c02-strong4.md"
+    }
+  ],
+  "verification_status": "explicit witnesses with human-readable generator arguments; no verifier run"
+}

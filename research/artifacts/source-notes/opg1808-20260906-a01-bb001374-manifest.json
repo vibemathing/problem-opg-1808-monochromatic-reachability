@@ -1,0 +1,111 @@
+{
+  "verdict": "candidate_only",
+  "bundle_status": "local_not_submitted",
+  "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
+  "cycle_start_base_revision": "6294f75cd72274a4445576d5719fe347ed2f74f5",
+  "file_count_excluding_manifest": 20,
+  "files": [
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c01-transitive3.md",
+      "sha256": "d85c5596e88435b31b0488f6bc90d18831a95be19d562ff2efcdff2468bf38bb",
+      "bytes": 3502
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c02-strong4.md",
+      "sha256": "69d92a904215bd71f0675bed0a29feddfc4adef988785a0cb0eabe1037f8ab2f",
+      "bytes": 3496
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c03-blowup-family.md",
+      "sha256": "21f3431be5c912b8ec0c67c715d50d344120bd0a96b4de8bd809c49f362cc796",
+      "bytes": 3483
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c04-module-lifting.md",
+      "sha256": "8c4f3e35ea37932ef7087351e5e9d77b555ebd84d9e390590c2b07dbed1a5af9",
+      "bytes": 4214
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c05-root-up-to4.md",
+      "sha256": "8b3366587eacab04f0507da5edef61caf4e2aea52d518b98b615d8523b496f13",
+      "bytes": 3703
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c06-root-up-to5.md",
+      "sha256": "b00ce35835623abc4584a15ff350284b71d11018da6c2d4f782dd4f53f7a7183",
+      "bytes": 8113
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c07-six-seven-search-reduction.md",
+      "sha256": "caaf936c9dd58c2253a9a45e636a5f9d0601c57f6b28a61dc1cff15edd8a65ac",
+      "bytes": 6070
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c08-two-colour-quotient.md",
+      "sha256": "605717ce481cc21a4fac5be68efba5399743aea1be69da31d809fe753bb7b9de",
+      "bytes": 5293
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-c09-five-vertex-resolution.json",
+      "sha256": "1364998017c122450b65e7626c67e7a5516f97c98699886d0ffc972fc4e5dee0",
+      "bytes": 5033
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-check-witnesses.py",
+      "sha256": "42b0b192c815a0127e550dfcb07aa4908c89730c3044c0f3677ea266468a713a",
+      "bytes": 7979
+    },
+    {
+      "path": "research/artifacts/candidates/opg1808-20260906-a01-bb001374-witnesses.json",
+      "sha256": "696b0580d2ad56f5cec560e21b6b9ba69794addd7776eb5669061a6491b96419",
+      "bytes": 1385
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-BUNDLE-README.md",
+      "sha256": "72f3e5c82ce0fb5d8574d2a8feb6c1a4f879e9c2014fdc63de802033bcee3edc",
+      "bytes": 2975
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-c06-attack-audit.md",
+      "sha256": "cd627499fd9920fe3b23b76a4c488bbfc7c8676fb4e32a22db87120ec7980879",
+      "bytes": 2327
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-checkpoint.json",
+      "sha256": "b48073385bbaffc6d2908eb18562d9008c874735ab4f311a748696663de22802",
+      "bytes": 8977
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-issue3-checkpoint-draft.md",
+      "sha256": "2815579bff7f7d2754e097900b0b310f30732f013458c0c92fbcb7d3e40f1c52",
+      "bytes": 3393
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-local-structure-check.json",
+      "sha256": "a6ab46c62a6e8b847c86ba06f0b609bfc268352dad27ebe891020fee4975aca1",
+      "bytes": 1364
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-pr-draft.md",
+      "sha256": "f3665d9076ce180cf9f26024ab18aeb39b828ffaefae9186dc6f62df37dfd794",
+      "bytes": 2500
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-recheck-plan.md",
+      "sha256": "8cb02c63f9e563952086ee68f9d70b529a5676431438f34c979b7e85fa021a33",
+      "bytes": 2491
+    },
+    {
+      "path": "research/artifacts/source-notes/opg1808-20260906-a01-bb001374-source-faithfulness.md",
+      "sha256": "d778184deff47dacdd70aaa638db297729ceb4865f1457b5bf127200adbc46f4",
+      "bytes": 6406
+    },
+    {
+      "path": "research/artifacts/web-inbox/opg1808-20260906-a01-bb001374-small-order-followup.packet.json",
+      "sha256": "450138abfbf5ba5b4bfa96303d30c751d361777291995789e07053ad39f9fb25",
+      "bytes": 13107
+    }
+  ],
+  "self_hash_policy": "Manifest does not include its own digest; see the separately supplied checksum file.",
+  "validation_scope": "Path, file-size, UTF-8, candidate digest and privacy scanning only; no mathematical verifier execution."
+}

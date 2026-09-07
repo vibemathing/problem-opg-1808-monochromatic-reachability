@@ -1,0 +1,270 @@
+{
+  "format": "generator_finite_resolution_candidate_v1",
+  "verdict": "candidate_only",
+  "candidate_id": "candidate:opg1808-20260906-a01-bb001374-c09-five-vertex-resolution",
+  "scope": "Forward-chord case A of C06 after its degree/cycle reductions and q normalization; not a standalone proof of the original unrestricted root.",
+  "dependency_candidate": "candidate:opg1808-20260906-a01-bb001374-c06-root-up-to5",
+  "label_domain": "vertices 0..4, arithmetic modulo 5",
+  "fixed_arcs": "i->i+1 and i->i+2 for every i",
+  "fixed_q_colours": [
+    3,
+    1,
+    1,
+    2,
+    2
+  ],
+  "p_domains": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "boolean_map": {
+    "1": "x: p_0=1 (false means p_0=2)",
+    "2": "y: p_1=1 (false means p_1=2)",
+    "3": "z: p_2=2 (false means p_2=3)",
+    "4": "w: p_3=1 (false means p_3=2)",
+    "5": "t: p_4=1 (false means p_4=3)"
+  },
+  "literal_convention": "Positive integer is the corresponding variable, negative integer its negation. A clause is a disjunction.",
+  "premise_clauses": [
+    {
+      "id": 1,
+      "literals": [
+        -1,
+        -2
+      ],
+      "forbidden_path": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "arc_colours": [
+        "p_0",
+        "p_1",
+        "q_2=1"
+      ],
+      "forbidden_common_colour": 1
+    },
+    {
+      "id": 2,
+      "literals": [
+        1,
+        2
+      ],
+      "forbidden_path": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "arc_colours": [
+        "q_3=2",
+        "p_0",
+        "p_1"
+      ],
+      "forbidden_common_colour": 2
+    },
+    {
+      "id": 3,
+      "literals": [
+        4,
+        2
+      ],
+      "forbidden_path": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "arc_colours": [
+        "p_3",
+        "q_4=2",
+        "p_1"
+      ],
+      "forbidden_common_colour": 2
+    },
+    {
+      "id": 4,
+      "literals": [
+        -1,
+        -4
+      ],
+      "forbidden_path": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "arc_colours": [
+        "p_0",
+        "q_1=1",
+        "p_3"
+      ],
+      "forbidden_common_colour": 1
+    },
+    {
+      "id": 5,
+      "literals": [
+        -3,
+        1
+      ],
+      "forbidden_path": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "arc_colours": [
+        "p_2",
+        "q_3=2",
+        "p_0"
+      ],
+      "forbidden_common_colour": 2
+    },
+    {
+      "id": 6,
+      "literals": [
+        -2,
+        -5
+      ],
+      "forbidden_path": [
+        1,
+        2,
+        4,
+        0
+      ],
+      "arc_colours": [
+        "p_1",
+        "q_2=1",
+        "p_4"
+      ],
+      "forbidden_common_colour": 1
+    },
+    {
+      "id": 7,
+      "literals": [
+        5,
+        3
+      ],
+      "forbidden_path": [
+        4,
+        0,
+        2,
+        3
+      ],
+      "arc_colours": [
+        "p_4",
+        "q_0=3",
+        "p_2"
+      ],
+      "forbidden_common_colour": 3
+    }
+  ],
+  "resolution_steps": [
+    {
+      "id": 8,
+      "parents": [
+        3,
+        4
+      ],
+      "pivot": 4,
+      "literals": [
+        2,
+        -1
+      ]
+    },
+    {
+      "id": 9,
+      "parents": [
+        1,
+        8
+      ],
+      "pivot": 2,
+      "literals": [
+        -1
+      ]
+    },
+    {
+      "id": 10,
+      "parents": [
+        2,
+        9
+      ],
+      "pivot": 1,
+      "literals": [
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "parents": [
+        5,
+        9
+      ],
+      "pivot": 1,
+      "literals": [
+        -3
+      ]
+    },
+    {
+      "id": 12,
+      "parents": [
+        6,
+        10
+      ],
+      "pivot": 2,
+      "literals": [
+        -5
+      ]
+    },
+    {
+      "id": 13,
+      "parents": [
+        7,
+        11
+      ],
+      "pivot": 3,
+      "literals": [
+        5
+      ]
+    },
+    {
+      "id": 14,
+      "parents": [
+        12,
+        13
+      ],
+      "pivot": 5,
+      "literals": []
+    }
+  ],
+  "asserted_final_clause_id": 14,
+  "manual_rule": "At each step the parents contain opposite signs of the pivot. Delete the pivot pair, take the union of the other literals, remove duplicates; the result must equal the asserted clause as a set.",
+  "faithfulness_requirements": [
+    "Verify that C06 legitimately reduces a minimal nonempty counterexample of order at most five to this forward-chord case or its separately treated reverse-chord case.",
+    "Verify q normalization and each p-domain using all distinct-colour constraints.",
+    "Verify each listed path follows a genuine directed arc, has distinct vertices and ends at the predecessor of its start.",
+    "Verify each premise clause is exactly the prohibition of the indicated monochromatic path under the Boolean map.",
+    "Verify all seven resolution steps and the final empty clause."
+  ],
+  "execution_status": "not_executed",
+  "verification_limit": "Hand-authored candidate certificate; no SAT run, kernel replay or trusted verification receipt is claimed."
+}
