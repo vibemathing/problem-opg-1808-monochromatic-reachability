@@ -13,6 +13,13 @@
       "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
       "source_manifest_sha256": "27a22779f4ea8418115002a4a180553b0f23425b69e4deb76f2bd6ae893b2993",
       "tree_sha256": "5edf6cc8393d5e1ca0aa566d8ca1d2c2174b15856f9115ef6b852a2f985dd4f7"
+    },
+    {
+      "harness_snapshot_sha256": "8c0dc9229c657b1b0168adb1875defc4de20dcf5b895f5b25e3a33e462fda0da",
+      "harness_version": "1.2.4",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+      "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
+      "tree_sha256": "51e3b38e4d8e985a13b33d001d74a5da9547e7b97bd230db9d140ea0c51abc43"
     }
   ],
   "repository": "vibemathing/problem-opg-1808-monochromatic-reachability",
